@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   root 'pages#index'
 
-  resources :profile_steps, only: :show
+  resources :profiles, only: :create do
+    resources :profile_steps, only: [:show, :update]
+  end
 end

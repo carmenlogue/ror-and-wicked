@@ -1,1 +1,15 @@
 EXTRAS
+
+<%= form_with(model: @profile, url: wizard_path, local: true) do |f| %>
+  <%= f.label :garden %>
+  <%= f.check_box :garden %>
+
+  <%= f.label :pool %>
+  <%= f.check_box :pool %>
+
+  <%= f.label :parking %>
+  <%= f.check_box :parking %>
+  
+  <%= link_to 'Atrás', previous_wizard_path %>
+  <%= f.submit 'Siguiente' %>
+<% end %>
