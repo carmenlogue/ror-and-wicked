@@ -7,6 +7,9 @@ PRICE
   <%= f.label :max_price %>
   <%= f.number_field :max_price, min: 1 %>
   
+  <%= @profile.errors[:min_price].join(', ').capitalize %>
+  <%= @profile.errors[:max_price].join(', ').capitalize %>
+  
   <%= link_to 'Atrás', previous_wizard_path %>
   <%= f.submit 'Siguiente' %>
 <% end %>

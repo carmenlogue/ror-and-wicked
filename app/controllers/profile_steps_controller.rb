@@ -10,9 +10,15 @@ class ProfileStepsController < ApplicationController
   end
 
   def update
-    profile.update(profile_steps_params)
+    profile.update(profile_steps_params.merge(step: step))
     
     render_wizard profile
+  end
+
+  def finish_wizard_path
+    profile.complete!
+  
+    root_path
   end
 
   private
