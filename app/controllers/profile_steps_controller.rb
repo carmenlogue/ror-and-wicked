@@ -18,7 +18,7 @@ class ProfileStepsController < ApplicationController
   def finish_wizard_path
     profile.complete!
   
-    root_path
+    profile_path(profile)
   end
 
   private
