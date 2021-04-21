@@ -1,24 +1,18 @@
-# README
+# Formulario de múltiples pasos con Rails 6 y Wicked
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- [HolaRuby!](https://holaruby.com/) ha publicado un artículo que explica los detalles para construir un formulario por pasos con Ruby on Rails y la gema Wicked.
 
-Things you may want to cover:
+- Puedes seguir el artículo en [este link.](https://holaruby.com/multistep_form)
 
-* Ruby version
+- [HolaRuby!](https://holaruby.com/) es un blog que habla sobre Ruby on Rails en un lenguaje cercano.
 
-* System dependencies
+Gracias por pasarte por aquí =)
 
-* Configuration
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+
+
